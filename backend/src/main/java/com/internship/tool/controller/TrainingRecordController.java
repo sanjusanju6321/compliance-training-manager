@@ -129,7 +129,7 @@ public class TrainingRecordController {
         return "Record deleted successfully";
     }
 
-    // ✅ SEARCH (SAFE)
+
     @GetMapping("/search")
     public List<TrainingRecord> search(
             @RequestParam(required = false) String q,
